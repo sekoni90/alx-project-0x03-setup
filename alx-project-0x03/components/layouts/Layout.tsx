@@ -1,3 +1,17 @@
+import React from "react";
+// import the interface from the new file
+import { LayoutProps } from "@/interface";
+
+export default function Layout({ children }: LayoutProps) {
+  return (
+    <div>
+      <header>Header</header>
+      <main>{children}</main>
+      <footer>Footer</footer>
+    </div>
+  );
+}
+
 // ## components/layouts/Footer.tsx
 
 import { 
@@ -56,5 +70,3 @@ const Footer: React.FC = () => {
     </footer>
   );
 }
-
-export default Footer;
