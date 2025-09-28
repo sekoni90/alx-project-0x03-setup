@@ -1,8 +1,8 @@
-// interface/index.ts
+// interface/index.tsx
 import React from "react";
 /**
  * centralized interface definitions for the project
- * save this file as: interface/index.ts
+ * save this file as: interface/index.tsx
  */
 
 // From pages/index.tsx
