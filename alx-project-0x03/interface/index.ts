@@ -1,3 +1,10 @@
+// interface/index.ts
+import React from "react";
+/**
+ * centralized interface definitions for the project
+ * save this file as: interface/index.ts
+ */
+
 // From pages/index.tsx
 export interface PageRouteProps {
   pageRoute: string;
